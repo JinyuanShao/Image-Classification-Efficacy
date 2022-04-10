@@ -21,7 +21,7 @@ This is official implementation Python code of MICE. Original paper: https://iee
 ```python
 from efficacy import MICE
 
-mice = MICE(ref_list=gt_list_arr, pred_list=pred_list_arr, label_values=[0,1])
+mice = MICE(ref_list=gt_list_arr, pred_list=pred_list_arr, label_values=[0,1]) # binary classification
 ```
 
 
