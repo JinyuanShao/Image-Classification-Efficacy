@@ -4,7 +4,9 @@ This is official implemententation Python code of MICE. Original paper: https://
 
 ### Usage
 
-### 📝 Citing
+### Citing
+
+If our MICE is helpful to your research or projects, please consider to refer our paper:
 ```
 @article{shao2021introducing,
   title={Introducing image classification efficacies},
