@@ -28,7 +28,7 @@ mice = MICE(ref_list=gt_list_arr, pred_list=pred_list_arr, label_values=[0,1]) #
 
 ## Citing
 
-If our MICE is helpful to your research or projects, please consider to refer our paper:
+If our MICE is helpful to your research or projects, please consider to cite our paper:
 ```
 @article{shao2021introducing,
   title={Introducing image classification efficacies},
