@@ -1,8 +1,7 @@
-# MICE: Map-level Image Classification Efficacy
+# Image Efficacy: A better metric for evaluating classifier performance
 
 
-
-MICE is introduced for comparing classification methods that are tested with different datasets. It could be used in any visual tasks to evaluated the performance of the classifiers.
+Image Efficacy is introduced for comparing classification methods that are tested with different datasets. It could be used in any visual tasks to evaluated the performance of the classifiers.
 
 
 
