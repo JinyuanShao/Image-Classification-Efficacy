@@ -7,15 +7,15 @@ This is general Python code of ICE implementation. For the principles of ICE met
 
 - **MICE**:  **M**ap-level **I**mage **C**lassification **E**fficacy
 
-![](https://latex.codecogs.com/svg.image?\mathrm{MICE}=\frac{OA-\sum_{j=1}^{n}\left(\frac{n_{&plus;j}}{n}\right)^{2}}{1-\sum_{j=1}^{n}\left(\frac{n_{&plus;j}}{n}\right)^{2}})
+![](https://latex.codecogs.com/svg.image?\mathrm{MICE}=\frac{\frac{\sum_{j}^{J}&space;n_{j&space;j}}{n}-\sum_{j=1}^{n}\left(\frac{n_{&plus;j}}{n}\right)^{2}}{1-\sum_{j=1}^{n}\left(\frac{n_{&plus;j}}{n}\right)^{2}})
 
 - **CICE**: **C**ommission-error-based **I**mage **C**lassification **E**fficacy
 
-![](https://latex.codecogs.com/svg.image?\mathrm{CICE}_{j}=\frac{{UA}_{j}-\frac{n_{&plus;j}}{n}}{1-\frac{n_{&plus;j}}{n}})
+![](https://latex.codecogs.com/svg.image?\mathrm{CICE}_{j}=\frac{\frac{n_{j&space;j}}{n_{j&plus;}}-\frac{n_{&plus;j}}{n}}{1-\frac{n_{&plus;j}}{n}})
 
 - **OICE**: **O**mission-error-based **I**mage **C**lassification **E**fficacy
 
-![](https://latex.codecogs.com/svg.image?\mathrm{OICE}_{j}=\frac{{PA}_{j}-\frac{n_{&plus;j}}{n}}{1-\frac{n_{&plus;j}}{n}})
+![](https://latex.codecogs.com/svg.image?\mathrm{CICE}_{j}=\frac{\frac{n_{j&space;j}}{n_{&plus;j}}-\frac{n_{&plus;j}}{n}}{1-\frac{n_{&plus;j}}{n}})
 
 Where, njj is the number or percent of sample points classified as class j, n+j is the class total from reference data, nj+ is the class total from classification result (predicted data), J is the total number of classes, and n is the total number of samples.
 
