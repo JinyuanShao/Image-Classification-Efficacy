@@ -7,18 +7,15 @@ Image Efficacy is introduced for comparing classification methods that are teste
 
 This is official implementation Python code of MICE. Original paper: https://ieeexplore.ieee.org/abstract/document/9551959
 
-
-
-**MICE**:  **M**ap-level **I**mage **C**lassification **E**fficacy
+- **MICE**:  **M**ap-level **I**mage **C**lassification **E**fficacy
 
 ![](https://latex.codecogs.com/svg.image?\mathrm{MICE}=\frac{OA-\sum_{j=1}^{n}\left(\frac{n_{&plus;j}}{n}\right)^{2}}{1-\sum_{j=1}^{n}\left(\frac{n_{&plus;j}}{n}\right)^{2}})
 
-**CICE**: **C**ommission-error-based **I**mage **C**lassification **E**fficacy
+- **CICE**: **C**ommission-error-based **I**mage **C**lassification **E**fficacy
 
 ![](https://latex.codecogs.com/svg.image?\mathrm{CICE}_{j}=\frac{{UA}_{j}-\frac{n_{&plus;j}}{n}}{1-\frac{n_{&plus;j}}{n}})
 
-
-**OICE**: **O**mission-error-based **I**mage **C**lassification **E**fficacy
+- **OICE**: **O**mission-error-based **I**mage **C**lassification **E**fficacy
 
 ![](https://latex.codecogs.com/svg.image?\mathrm{OICE}_{j}=\frac{{PA}_{j}-\frac{n_{&plus;j}}{n}}{1-\frac{n_{&plus;j}}{n}})
 
