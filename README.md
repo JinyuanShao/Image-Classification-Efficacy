@@ -19,9 +19,13 @@ This is official implementation Python code of MICE. Original paper: https://iee
 
 
 ```python
-from efficacy import MICE
+from assessment import Efficacy
 
-mice = MICE(ref_list=gt_list_arr, pred_list=pred_list_arr, label_values=[0,1]) # binary classification
+efficacy = Efficay(ref_list=gt_list_arr, pred_list=pred_list_arr, label_values=[0,1]) # binary classificaion
+
+mice = efficacy.MICE()
+oice = efficacy.OICE()
+cice = efficacy.CICE()
 ```
 
 
