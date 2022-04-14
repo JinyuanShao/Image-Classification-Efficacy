@@ -17,7 +17,7 @@ This is general Python code of ICE implementation. For the principles of ICE met
 
 ![](https://latex.codecogs.com/svg.image?\mathrm{OICE}_{j}=\frac{{PA}_{j}-\frac{n_{&plus;j}}{n}}{1-\frac{n_{&plus;j}}{n}})
 
-Where OA is Overall Accuracy, UA is User Accuracy, PA is Producer Accuracy, j is the number of classess and n is the number of samples.
+Where, njj is the number or percent of sample points classified as class j, n+j is the class total from reference data, nj+ is the class total from classification result (predicted data), J is the total number of classes, and n is the total number of samples.
 
 ## Usage
 
