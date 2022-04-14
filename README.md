@@ -1,11 +1,9 @@
 # Image Classification Efficacy (ICE): A better metric for evaluating the discriminative power of a classifier
 
 
-Image Efficacy is introduced for comparing classification methods that are tested with different datasets. It could be used in any visual tasks to evaluated the performance of the classifiers.
+Image Classification Efficacy (ICE) is introduced for comparing classification methods that are tested with different datasets. It can be used in various fields to consistently evaluate the performance of any classifiers.
 
-
-
-This is official implementation Python code of MICE. Original paper: https://ieeexplore.ieee.org/abstract/document/9551959
+This is general Python code of ICE implementation. For the principles of ICE metrics, please refer to original paper: https://ieeexplore.ieee.org/abstract/document/9551959
 
 - **MICE**:  **M**ap-level **I**mage **C**lassification **E**fficacy
 
