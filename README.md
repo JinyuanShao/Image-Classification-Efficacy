@@ -23,7 +23,7 @@ Where, njj is the number or percent of sample points classified as class j, n+j 
 
 
 
-**MICE** expects reference data and predicted data in Numpy list format with one dimension, and also a Python list that contains the value of labels.
+The computation of **ICE** metrics expects reference data and predicted data in Numpy list format with one dimension, and also a Python list that contains the value of labels.
 
 
 
