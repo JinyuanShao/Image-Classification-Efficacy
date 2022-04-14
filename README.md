@@ -1,4 +1,4 @@
-# Image Efficacy: A better metric for evaluating classifier performance
+# Image Classification Efficacy (ICE): A better metric for evaluating the discriminative power of a classifier
 
 
 Image Efficacy is introduced for comparing classification methods that are tested with different datasets. It could be used in any visual tasks to evaluated the performance of the classifiers.
