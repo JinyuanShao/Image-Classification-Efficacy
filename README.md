@@ -41,7 +41,7 @@ cice = efficacy.CICE()
 
 ## Citing
 
-If our MICE is helpful to your research or projects, please consider to cite our paper:
+If our ICE metrics are helpful to your research or projects, please consider to cite our paper:
 ```
 @article{shao2021introducing,
   title={Introducing image classification efficacies},
