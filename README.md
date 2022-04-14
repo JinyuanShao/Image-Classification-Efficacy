@@ -15,7 +15,7 @@ This is general Python code of ICE implementation. For the principles of ICE met
 
 - **OICE**: **O**mission-error-based **I**mage **C**lassification **E**fficacy
 
-![](https://latex.codecogs.com/svg.image?\mathrm{CICE}_{j}=\frac{\frac{n_{j&space;j}}{n_{&plus;j}}-\frac{n_{&plus;j}}{n}}{1-\frac{n_{&plus;j}}{n}})
+![](https://latex.codecogs.com/svg.image?\mathrm{OICE}_{j}=\frac{\frac{n_{j&space;j}}{n_{&plus;j}}-\frac{n_{&plus;j}}{n}}{1-\frac{n_{&plus;j}}{n}})
 
 Where, ![](https://latex.codecogs.com/svg.image?n_{i&space;j}) is the number or percent of sample points classified as class *j*, ![](https://latex.codecogs.com/svg.image?n_{&plus;j}) is the class total from reference data, ![](https://latex.codecogs.com/svg.image?n_{j&plus;}) is the class total from classification result (predicted data), *J* is the total number of classes, and *n* is the total number of samples.
 
